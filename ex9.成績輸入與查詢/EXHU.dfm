@@ -1,0 +1,120 @@
+object Form1: TForm1
+  Left = 189
+  Top = 216
+  Width = 661
+  Height = 609
+  Caption = #25104#32318#36664#20837#33287#26597#35426
+  Color = clBtnFace
+  Font.Charset = DEFAULT_CHARSET
+  Font.Color = clWindowText
+  Font.Height = -11
+  Font.Name = 'MS Sans Serif'
+  Font.Style = []
+  OldCreateOrder = False
+  OnCreate = FormCreate
+  PixelsPerInch = 96
+  TextHeight = 13
+  object Label1: TLabel
+    Left = 152
+    Top = 32
+    Width = 56
+    Height = 27
+    Caption = #32317#20998
+    Color = clActiveCaption
+    Font.Charset = CHINESEBIG5_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = #27161#26999#39636
+    Font.Style = []
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label2: TLabel
+    Left = 272
+    Top = 32
+    Width = 56
+    Height = 27
+    Caption = #24179#22343
+    Color = clActiveCaption
+    Font.Charset = CHINESEBIG5_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -27
+    Font.Name = #27161#26999#39636
+    Font.Style = []
+    ParentColor = False
+    ParentFont = False
+  end
+  object LaOutput: TLabel
+    Left = 40
+    Top = 72
+    Width = 321
+    Height = 481
+    AutoSize = False
+    Color = clYellow
+    Font.Charset = CHINESEBIG5_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = #27161#26999#39636
+    Font.Style = []
+    ParentColor = False
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 400
+    Top = 400
+    Width = 208
+    Height = 16
+    Caption = #35531#36664#20837#27442#26597#35426#25104#32318#20043#21516#23416#34399#30908
+    Color = clLime
+    Font.Charset = CHINESEBIG5_CHARSET
+    Font.Color = clWindowText
+    Font.Height = -16
+    Font.Name = #27161#26999#39636
+    Font.Style = []
+    ParentColor = False
+    ParentFont = False
+  end
+  object ButPro: TButton
+    Left = 448
+    Top = 112
+    Width = 89
+    Height = 57
+    Caption = #31243#35373#24179#22343
+    TabOrder = 0
+    OnClick = ButProClick
+  end
+  object ButCom: TButton
+    Left = 448
+    Top = 192
+    Width = 89
+    Height = 57
+    Caption = #35336#27010#24179#22343
+    TabOrder = 1
+    OnClick = ButComClick
+  end
+  object ButEco: TButton
+    Left = 448
+    Top = 272
+    Width = 89
+    Height = 57
+    Caption = #32147#28639#24179#22343
+    TabOrder = 2
+    OnClick = ButEcoClick
+  end
+  object ButSearch: TButton
+    Left = 496
+    Top = 424
+    Width = 65
+    Height = 41
+    Caption = #26597#35426
+    TabOrder = 3
+    OnClick = ButSearchClick
+  end
+  object EdiInput: TEdit
+    Left = 440
+    Top = 432
+    Width = 33
+    Height = 21
+    TabOrder = 4
+  end
+end
